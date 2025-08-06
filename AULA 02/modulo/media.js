@@ -8,8 +8,8 @@
 function calcularMedia (valor1, valor2, valor3, valor4){
     let nota1 = Number(valor1)
     let nota2 = Number(valor2)
-    let nota3 =Number(valor3)
-    let nota4 =Number(valor4)
+    let nota3 = Number(valor3)
+    let nota4 = Number(valor4)
 
     let media = (Number(nota1) + Number(nota2) + Number(nota3) + Number(nota4)) / 4
     return Number(media).toFixed(1)

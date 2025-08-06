@@ -2,7 +2,7 @@
  * Objetivo: Criar um app para calculo de médias Escolares
  * Autor: Matheus Perez
  * Data: 30/07/2025
- * Versão: 1.0s
+ * Versão: 1.0
 ************************************************/
 
 const MESSAGE_ERROR_EMPTY = 'ERRO: Não foi possível calcular a média, pois existem campos que não foram preenchidos!'
@@ -104,7 +104,7 @@ entradaDeDados.question('Digite o nome do aluno: ', function(nome){
                         console.log(MESSAGE_ERROR_OUT_OF_RANGE)
                         //Validação para bloquear a entrada de letras
                   }else if(isNaN(nota1) || isNaN(nota2) || isNaN(nota3) || isNaN(nota4) 
-                        //continuar a linha de cima
+                        
                     ){
                         console.log(MESSAGE_ERROR_NAN)
 
